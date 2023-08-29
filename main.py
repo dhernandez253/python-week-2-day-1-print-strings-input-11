@@ -25,6 +25,88 @@
 
 
 ###########################String Practice##################################
+#syntax is the way we write code
+# print("Hello World")
+# name = "John"
+#in other languages, this is different
+# in javascript for example, you define
+#variabes with let or const or var
+#in python, you just give your variables a
+#name and then define it with a value
+word = "python is cool and stuff and im bored" #string variable
+print(word)
+print(word[0])
+print(word[13])
+print(word[19])
+print(word[23])
+print(word[-1])
+print(word[-2])
+print(word[-3])
+#0 prints the first letter of the string
+#spaces count as characters
+#string slicing
+print(word[10:14])
+#10 is inclusive, 14 is exclusive. stop before 14
+print(word[19:24])
+print(word[0:6])
+print(word[7:9])
+print(word[15:18])
+print(word[-1:-6])
+print(word[0:])
+print(word[:-1])
+print(len(word))
+#(len) measures out and tells you the length of the string
+print(word[:13])
+print(word[5:])
+#what if I wanted to find a substring/word?
+#a substring is a word inside of a sentence
+print(word.find("is"))
+#finds the index of a substring
+print(word.find("and"))
+#index is 15
+#how do we uppercase letters
+print(word.upper())
+#uppercases entire document
+print(word.capitalize())
+#only uppercases first letter/capitalizes it
+cool=word[10:14]
+print(cool)
+print(cool.capitalize())
+print(word.replace("python","javascript"))
+print(word.replace("cool","ugly"))
+
+
+
+
+#challenge
+# find a summary of blue beetle online and create a 
+# variable called blue_beetle_summary and print it
+# hint: google it
+# print the length of the summary
+s="An alien scarab chooses Jaime Reyes to be its symbiotic host, bestowing the recent college graduate with a suit of armor that's capable of extraordinary powers, forever changing his destiny as he becomes the superhero known as Blue Beetle "
+print(s)
+# upper case the entire summary
+print(s.upper())
+# print the summary
+print(s)
+# print the summary in lowercase
+print(s.lower())
+# replace the word blue with red
+print(s.replace("blue","red"))
+# print the summary
+print(s)
+# string index the word beetle and print it out
+print(s.find("beetle"))
+print(s[-7:-1])
+# print the last word of the summary
+print(s[-7:-1])
+# print the summary in reverse
+print(s[::-1])
+
+
+
+
+
 # String Practice #1: try this in repl.it
 # Define a string containing your full name.
 # Print the first 3 letters of your name using string slicing.
